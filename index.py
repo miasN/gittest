@@ -1,2 +1,4 @@
 a = int(input('сколько?'))
-print(a,a)
+for i in range(0,a,2):
+    print(i)
+    
